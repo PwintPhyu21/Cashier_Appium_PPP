@@ -1,0 +1,34 @@
+{
+  "name": "parse-jtl",
+  "version": "1.0.4",
+  "description": "parse jmeter jtl files",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "c8 mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/test-results-reporter/jtl-parser.git"
+  },
+  "keywords": [
+    "jtl",
+    "parser",
+    "jmeter"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/test-results-reporter/jtl-parser/issues"
+  },
+  "homepage": "https://github.com/test-results-reporter/jtl-parser#readme",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "csvjson": "^5.1.0"
+  }
+}
